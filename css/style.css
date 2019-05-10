@@ -1,6 +1,6 @@
 body{
     background: #efeee7;
-    font: Georgia,"Times New Roman",Times,serif;
+    font-family: Georgia,"Times New Roman",Times,serif;
     color: #333333;
     margin:0;
     padding:0;
@@ -13,12 +13,42 @@ header{
 h1{
     color: #eee;
     font-size: 28px;
+    text-align: center;
     margin-top: 0px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 650px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 h2{
     font-size: 24px;
 }
+
+#container{
+    margin: 0 auto;
+}
+
+#main-bio{
+    float: left;
+    width: 70%;
+    margin-left: 35px;
+}
+
+.contact-info{
+    float: left;
+    width: 30%;
+}
+
+ul{
+    right: 100px;
+}
+
+#bio-image{
+    float: left;
+    width: 200px;
+    margin-right: 15px;
+}
+
+.container a:link { color: #d21034;}
+.container a:visited { color: #d21034;}
+.container a:hover { color: #d21034;}
+.container a:active { color: #d21034;}
